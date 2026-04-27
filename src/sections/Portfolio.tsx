@@ -8,7 +8,7 @@ const projects = [
     quote: ' Os uniformes da Identta fizeram diferença real na rotina da equipe. ',
   },
   {
-    image: 'orca-sistemas.png',
+    image: '/orca-sistemas.png',
     title: 'Orca Sistemas',
     tags: 'Software · DTF · Polo',
     quote: ' A Identta superou nossas expectativas. ',

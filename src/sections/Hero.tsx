@@ -86,7 +86,7 @@ export default function Hero() {
           >
             <img
               ref={imageRef}
-              src="public\imagem-antes-depois.png"
+              src="/imagem-antes-depois.png"
               alt="Equipe uniformizada da Identta"
               className="w-full h-[120%] object-cover"
               style={{ willChange: 'transform' }}

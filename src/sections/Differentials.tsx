@@ -62,7 +62,7 @@ export default function Differentials() {
             >
               <img
                 ref={imageRef}
-                src="public\imagem.png"
+                src="/imagem.png"
                 alt="Uniformes profissionais Identta"
                 className="w-full h-[120%] object-cover"
                 style={{ willChange: 'transform' }}

@@ -44,7 +44,7 @@ export default function Navbar() {
             onClick={(e) => handleNavClick(e, '#inicio')}
             className="text-navy font-bold text-lg tracking-[0.12em] uppercase"
           >
-            <img src="public\logoazul.png" alt="Identta Uniformes" className="h-10 w-auto" />
+            <img src="/logoazul.png" alt="Identta Uniformes" className="h-10 w-auto" />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
