@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 207 54% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 207 54% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 207 54% 16%;
+    --primary: 207 54% 16%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 207 54% 16%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 203 65% 33%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 207 54% 16%;
+    --radius: 0.5rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-foreground;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-navy {
+    color: #0D2B45;
+  }
+  .bg-navy {
+    background-color: #0D2B45;
+  }
+  .text-medium-gray {
+    color: #6B7280;
+  }
+  .text-dark-gray {
+    color: #334155;
+  }
+  .bg-light-gray {
+    background-color: #F4F4F5;
+  }
+  .border-subtle {
+    border-color: #E5E7EB;
+  }
+  .text-accent-blue {
+    color: #1E5C8E;
+  }
+  .bg-accent-blue {
+    background-color: #1E5C8E;
+  }
+}
